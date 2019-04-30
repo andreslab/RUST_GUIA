@@ -1,0 +1,20 @@
+rustc install <VERSION>
+rustc install nightly
+actualizar
+rustc update
+rustc update <VERSION>
+
+definir version de rust
+rustup default <VERSION>
+rustup default nightly
+
+version para un proyecto
+rustup override set <VERSION>
+
+crear un proyecto de rust con cargo
+cargo new NAME_PROYECT --bin
+
+compilar proyecto de cargo:
+cargo run
+
+
