@@ -1,3 +1,5 @@
+mod print;
+
 fn main() {
     println!("Hello, world!");
     //inmutable variable
@@ -16,4 +18,7 @@ fn main() {
     let x: u64 = 45; //no support negative number (unsign)
     let f: f32 = 6.7; //float f32
     let b: bool = false;
+
+    //usar un archivo externo
+    print::run();
 }

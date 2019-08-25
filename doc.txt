@@ -4,17 +4,30 @@ actualizar
 rustc update
 rustc update <VERSION>
 
-definir version de rust
+· definir version de rust
 rustup default <VERSION>
 rustup default nightly
 
-version para un proyecto
+· version para un proyecto
 rustup override set <VERSION>
 
-crear un proyecto de rust con cargo
+· crear pequeña estructura de un proyecto
+cargo init
+
+· crear un proyecto de rust con cargo
 cargo new NAME_PROYECT --bin
 
-compilar proyecto de cargo:
+· compilar y ejecutar proyecto de cargo:
 cargo run
+
+· solo compilar el proyecto
+cargo build
+
+· compilar un release
+cargo build --release
+
+· ejecutar en terminal el proyecto previamente compilado (cargo run)
+./target/debug/NOMBRE_ARCHIVO_RUST
+
 
 
