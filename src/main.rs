@@ -1,4 +1,7 @@
 mod print;
+mod vars;
+mod types;
+mod strings;
 
 fn main() {
     println!("Hello, world!");
@@ -20,5 +23,8 @@ fn main() {
     let b: bool = false;
 
     //usar un archivo externo
-    print::run();
+    //print::run();
+    //vars::run();
+    //types::run();
+    strings::run();
 }
