@@ -1,7 +1,20 @@
-mod print;
-mod vars;
-mod types;
-mod strings;
+//mod print;
+//mod vars;
+//mod types;
+//mod strings;
+//mod tuplas;
+//mod arrays;
+//mod vectors;
+//mod conditionals;
+//mod loops;
+//mod enums;
+//mod function;
+//mod code_block;
+//mod shadowing;
+//mod reference;
+mod structs;
+
+const MAXIMUN_NUMBER: u8 = 20;
 
 fn main() {
     println!("Hello, world!");
@@ -22,9 +35,23 @@ fn main() {
     let f: f32 = 6.7; //float f32
     let b: bool = false;
 
+    for n in 1..MAXIMUN_NUMBER {
+        println!("{}",n);
+    }
+
     //usar un archivo externo
     //print::run();
     //vars::run();
     //types::run();
-    strings::run();
+    //strings::run();
+    //tuplas::run();
+    //arrays::run();
+    //conditionals::run();
+    //loops::run();
+    //enums::run();
+    //function::run();
+    //code_block::run();
+    //shadowing::run();
+    //reference::run();
+    structs::run();
 }
