@@ -12,7 +12,11 @@
 //mod code_block;
 //mod shadowing;
 //mod reference;
-mod structs;
+//mod structs;
+//mod implementation;
+//mod read_file;
+//mod command_line;
+mod write_file;
 
 const MAXIMUN_NUMBER: u8 = 20;
 
@@ -53,5 +57,9 @@ fn main() {
     //code_block::run();
     //shadowing::run();
     //reference::run();
-    structs::run();
+    //structs::run();
+    //implementation::run();
+    //read_file::run();
+    //command_line::run();
+    write_file::run();
 }

@@ -1,6 +1,8 @@
 
 
 pub fn run(){
+    let my_vector: Vec<i32> = Vec::new();
+
     let numbers: Vec<i32> = vec![1,2,3,4,5];
     //tipo i32, 5 elements
 

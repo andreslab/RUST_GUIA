@@ -20,7 +20,7 @@ pub fn run(){
 
     //replace
     println!("replace: {}", hello.replace("world", " here"));
-    
+
     //loop throuh string by whitespace
     for world in hello.split_whitespace(){
         println!("{}",world );
