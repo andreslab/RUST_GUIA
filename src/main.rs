@@ -16,7 +16,8 @@
 //mod implementation;
 //mod read_file;
 //mod command_line;
-mod write_file;
+//mod write_file;
+mod traits;
 
 const MAXIMUN_NUMBER: u8 = 20;
 
@@ -61,5 +62,5 @@ fn main() {
     //implementation::run();
     //read_file::run();
     //command_line::run();
-    write_file::run();
+    traits::run();
 }
