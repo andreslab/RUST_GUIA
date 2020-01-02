@@ -17,12 +17,16 @@
 //mod read_file;
 //mod command_line;
 //mod write_file;
-mod traits;
+//mod traits;
+//mod matchs;
+//mod read_file;
+//mod hash_maps;
+mod random_number;
 
 const MAXIMUN_NUMBER: u8 = 20;
 
 fn main() {
-    println!("Hello, world!");
+    /*println!("Hello, world!");
     //inmutable variable
     //let x = 45;
     
@@ -42,7 +46,7 @@ fn main() {
 
     for n in 1..MAXIMUN_NUMBER {
         println!("{}",n);
-    }
+    }*/
 
     //usar un archivo externo
     //print::run();
@@ -62,5 +66,9 @@ fn main() {
     //implementation::run();
     //read_file::run();
     //command_line::run();
-    traits::run();
+    //traits::run();
+    //matchs::run();
+    //read_file::run();
+    //hash_maps::run();
+    random_number::run();
 }
