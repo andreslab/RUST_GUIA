@@ -21,9 +21,20 @@
 //mod matchs;
 //mod read_file;
 //mod hash_maps;
-mod random_number;
+//mod random_number;
+//mod regular_expression;
+//mod command;
+mod parse_json;
 
-const MAXIMUN_NUMBER: u8 = 20;
+/* mod dcode {
+    pub fn print_message(){
+        println!("How it going");
+    }
+} */
+
+//mod request_http;
+
+//const MAXIMUN_NUMBER: u8 = 20;
 
 fn main() {
     /*println!("Hello, world!");
@@ -70,5 +81,46 @@ fn main() {
     //matchs::run();
     //read_file::run();
     //hash_maps::run();
-    random_number::run();
+    //random_number::run();
+    //regular_expression::run();
+    //dcode::print_message();
+    //request_http::largeRequest();
+    //request_http::shortRequest();
+
+    //let d = enums::Day::Martes;
+    //println!("is d a weekday? {}", d.is_weekday());
+
+    //command::run();
+
+    parse_json::run();
+}
+
+fn get_two() -> i32 {
+    2
+}
+
+#[cfg(test)]
+mod dcode_test {
+    #[test] //assert true es el sucess
+    #[should_panic] //panic es el success
+    fn test_basic(){
+        assert!(1 == 1); //ok
+        panic!("Oh no");
+    }
+
+    #[test]
+    fn test_equals(){
+        assert_eq!(2, 1 + 1);
+    }
+
+    #[test]
+    #[ignore]
+    fn test_equals_2(){
+        assert_eq!(2, 3 + 1);
+    }
+
+    #[test]
+    fn test_equa_3(){
+        assert_eq!(2, super::get_two()); //con super obtengo los metodos y parametros de fuera
+    }
 }
